@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTPBL", "TOTPBL\TOTPBL.csproj", "{D2042B19-C6A9-4D1D-BCBC-3ACEAF2CC20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTPModel", "TOTPModel\TOTPModel.csproj", "{7BC5E324-BA19-497B-90E3-95545E8F0C4E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TOTPUI", "TOTPUI", "{03265B1E-B64E-4A0E-B655-C2D7440E1695}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{D2042B19-C6A9-4D1D-BCBC-3ACEAF2CC20B}|TOTPBL.dll;{7BC5E324-BA19-497B-90E3-95545E8F0C4E}|TOTPModel.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TOTPUI"
+		Debug.AspNetCompiler.PhysicalPath = "TOTPUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TOTPUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TOTPUI"
+		Release.AspNetCompiler.PhysicalPath = "TOTPUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TOTPUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57631"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs21
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TOTPBL\\TOTPBL.csproj
+		SccProjectName1 = TOTPBL
+		SccLocalPath1 = TOTPBL
+		SccProjectUniqueName2 = TOTPModel\\TOTPModel.csproj
+		SccProjectName2 = TOTPModel
+		SccLocalPath2 = TOTPModel
+		SccWebProject3 = true
+		SccProjectUniqueName3 = TOTPUI
+		SccProjectName3 = TOTPUI
+		SccLocalPath3 = TOTPUI
+		SccProjectEnlistmentChoice3 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2042B19-C6A9-4D1D-BCBC-3ACEAF2CC20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2042B19-C6A9-4D1D-BCBC-3ACEAF2CC20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2042B19-C6A9-4D1D-BCBC-3ACEAF2CC20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2042B19-C6A9-4D1D-BCBC-3ACEAF2CC20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC5E324-BA19-497B-90E3-95545E8F0C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC5E324-BA19-497B-90E3-95545E8F0C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC5E324-BA19-497B-90E3-95545E8F0C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC5E324-BA19-497B-90E3-95545E8F0C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03265B1E-B64E-4A0E-B655-C2D7440E1695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03265B1E-B64E-4A0E-B655-C2D7440E1695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03265B1E-B64E-4A0E-B655-C2D7440E1695}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{03265B1E-B64E-4A0E-B655-C2D7440E1695}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
